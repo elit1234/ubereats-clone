@@ -1,0 +1,16 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "UberMoveBold";
+  src: local("UberMoveBold"), url(./fonts/UberMoveBold.woff) format("woff");
+}
+* {
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
